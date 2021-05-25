@@ -5,13 +5,43 @@
 
 
 
-.main-action{
-    display: inline-flex;
-    align-items: center;
-    padding-right: 61px;
-    padding-left: 61px;
-    font-size: 63px;
-    font-family: WinterSunday;
-    color: #7C3267;
-    text-decoration: none;
+@media only screen and (min-width : 1271px)
+{ 
+    .main-action{
+        padding-top: 30px;
+        display: inline-flex;
+        align-items: center;
+        padding-right: 35px;
+        font-size: 3rem;
+        font-family: WinterSunday;
+        color: #7C3267;
+        text-decoration: none;
+    }
+
+    .main-action.-second{
+        padding-top: 0px;
+        padding-right: 99px;
+        padding-left: 15px;
+    }
 }
+
+@media only screen and (min-width : 2566px){
+    .main-action{
+        padding-top: 25px;
+        display: inline-flex;
+        align-items: center;
+        padding-right: 61px;
+        padding-left: 61px;
+        font-size: 4rem;
+        font-family: WinterSunday;
+        color: #7C3267;
+        text-decoration: none;
+    }
+
+    .main-action .-second{
+        padding-top: 0px;
+        padding-right: 99px;
+        padding-left: 15px;
+    }
+}
+

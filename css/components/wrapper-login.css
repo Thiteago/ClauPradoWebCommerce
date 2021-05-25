@@ -1,0 +1,23 @@
+.wrapper-login{
+    border-radius: 40px;
+    background-color: #DB00FF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.wrapper-login img{
+    position: absolute;
+    right: 0px;
+    z-index: 0;
+}
+
+.wrapper-login a{
+    color: #fff;
+    line-height: 24,19px;
+    font-family: 'Viga', Arial, Helvetica, sans-serif;
+    font-size: 38px;
+}
+
