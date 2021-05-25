@@ -1,0 +1,8 @@
+.main-header{
+    position: fixed;
+    justify-content: space-between;
+    background-color: #fff;
+    display: flex;
+    height: 105px;
+    width: 100%;
+}

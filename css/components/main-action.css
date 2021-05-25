@@ -1,0 +1,17 @@
+@font-face {
+    font-family: WinterSunday;
+    src: url(../../assets/fonts/WinterSunday.otf);
+}
+
+
+
+.main-action{
+    display: inline-flex;
+    align-items: center;
+    padding-right: 61px;
+    padding-left: 61px;
+    font-size: 63px;
+    font-family: WinterSunday;
+    color: #7C3267;
+    text-decoration: none;
+}
