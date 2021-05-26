@@ -1,5 +1,7 @@
 .main-slide{
+    display: flex;
+    justify-content: center;
     background-color: #ECECEC;
-    height: 700px;
+    height: 450px;
     overflow: hidden;
 }
