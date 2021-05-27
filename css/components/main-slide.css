@@ -1,13 +1,20 @@
 .main-slide{
     display: flex;
     justify-content: center;
-    background-color: #ECECEC;
+    /**background-color: #ECECEC;**/
     height: 450px;
     overflow: hidden;
 }
 
-.main-slide .mask{
-    width: 0px;
-    height: 0px;
-    position: absolute;
+
+.main-slide .bg_video{
+    position: absolute; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+    overflow: hidden;
 }
