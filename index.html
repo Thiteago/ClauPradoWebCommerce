@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="css/components/main-slide.css">
     <link rel="stylesheet" href="css/components/wrapper-slide.css">
 
+ 
 </head>
 
-<body>
+<body onload="slide1()">
     <header class="main-header">
         <img src="assets/img/logo-clau.png" alt="logo clau prado" height="244" width="230">
         <nav>
@@ -38,7 +39,7 @@
     <section class="main-slide">
         <div class="wrapper-slide">
             <img class="wrapper-slide -fundo" src="assets/img/nuvem-fundo.png" alt="">
-            <img class="wrapper-slide -mascara" src="assets/img/produto-3.jpeg" alt="">
+            <img class="wrapper-slide -mascara" id="img" src="assets/img/produto-3.jpeg" alt="">
             <!-- <img class="wrapper-slide -mascara" src="assets/img/nuvem-fundo.png" alt="">-->
         </div>
 
@@ -46,7 +47,8 @@
 
 
 
-
+    
 </body>
+<script type="text/javascript" src="js/slide.js"></script>
 
 </html>
