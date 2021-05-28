@@ -4,6 +4,7 @@
     /**background-color: #ECECEC;**/
     height: 450px;
     overflow: hidden;
+    border-bottom: 10px solid #FFF;
 }
 
 
@@ -17,9 +18,4 @@
 	height: auto; 
 	z-index: -1000;
     overflow: hidden;
-}
-
-.main-slide .progress{
-    position: absolute;
-    bottom: 70px;
 }

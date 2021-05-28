@@ -1,0 +1,8 @@
+.main-title{
+    font-family: WinterSunday;
+    src: url(../../assets/fonts/WinterSunday.otf);
+    font-size: 92px;
+
+    color: #FFFFFF;
+    text-shadow: -1px 3px 0px #FF005C;
+}
