@@ -18,3 +18,8 @@
 	z-index: -1000;
     overflow: hidden;
 }
+
+.main-slide .progress{
+    position: absolute;
+    bottom: 70px;
+}
