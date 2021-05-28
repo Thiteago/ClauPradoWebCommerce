@@ -8,20 +8,21 @@
 }
 
 .main-slide .clouds{
-    bottom: 231px;
+    display: flex;
+    bottom: 59px;
     position: absolute;
     box-sizing: border-box;
-    z-index: 1;
+    z-index: 2;
     overflow: hidden;
 }
 
 .main-slide .clouds img{
     position: relative;
-    height: 300px;
+    height: 251px;
     width: auto;
     bottom: -54px;
     overflow: hidden;
-    margin: 0px 180px 0px 180px;
+    margin: 0px 230px 0px 230px;
 }
 
 .main-slide .bg_video{
