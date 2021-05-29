@@ -33,6 +33,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 
+    <!-- JQuery Import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 
     <!-- Link to CSS stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
@@ -43,11 +46,20 @@
     <link rel="stylesheet" href="css/components/wrapper-slide.css">
     <link rel="stylesheet" href="css/components/main-topseller.css">
     <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/main-loader.css">
 
  
 </head>
-
+<script type="text/javascript" src="js/loader.js"></script>
 <body onload="slide1()">
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+     
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+     
+    </div>
+
     <header class="main-header">
         <img src="assets/img/logo-clau.png" alt="logo clau prado" height="244" width="230">
         <nav class="nav">
