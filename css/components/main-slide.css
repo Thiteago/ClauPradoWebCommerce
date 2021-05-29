@@ -1,18 +1,19 @@
 .main-slide{
     display: flex;
     justify-content: center;
+    /**background-color: #ECECEC;**/
     height: 450px;
     overflow: hidden;
     border-bottom: 10px solid #FFF;
 }
 
 .main-slide .clouds{
-    display: flex;
     position: absolute;
     box-sizing: border-box;
     z-index: 2;
     overflow: hidden;
     top: 294px;
+    display: flex;
 }
 
 .main-slide .clouds img{
