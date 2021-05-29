@@ -4,7 +4,7 @@
     /**background-color: #ECECEC;**/
     height: 450px;
     overflow: hidden;
-    border-bottom: 10px solid #FFF;
+    border-bottom: 6px ridge #FFF;
 }
 
 .main-slide .clouds{
@@ -12,7 +12,7 @@
     box-sizing: border-box;
     z-index: 2;
     overflow: hidden;
-    top: 294px;
+    top: 298px;
     display: flex;
 }
 

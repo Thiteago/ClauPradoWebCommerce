@@ -1,0 +1,25 @@
+.wrapper-maisvendidos{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 96px;
+}
+
+.wrapper-maisvendidos .produto{
+    width: 380px;
+    height: 280px;
+    background-color: white;
+}
+
+#espaco{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.wrapper-maisvendidos p{
+    font-family: 'Viga', Arial, Helvetica, sans-serif;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+    top: 285px;
+}
