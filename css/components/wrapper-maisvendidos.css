@@ -1,8 +1,7 @@
 .wrapper-maisvendidos{
     display: flex;
     justify-content: center;
-    padding-top: 90px;
-    padding-bottom: 96px;
+    padding-top: 55px;
 }
 
 @media only screen and (min-width: 1920px) {
