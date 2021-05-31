@@ -4,9 +4,16 @@
     justify-content: center;
 }
 
+
 .wrapper-products .main-product{
     background-color: #C4C4C4;
     margin-left: 20px;
+}
+
+.wrapper-products .main-text{
+    width: 49%;
+    margin-left: 52px;
+    text-align: left;
 }
 
 .wrapper-products .secundary-product{
@@ -18,11 +25,7 @@
     margin-top: 10px;
 }
 
-.wrapper-products .main-text{
-    width: 45%;
-    margin-left: 52px;
-    text-align: left;
-}
+
 
 .wrapper-products .main-text h1{
     font-family: WinterSunday;
@@ -37,17 +40,42 @@
 }
 
 
-@media only screen and (max-width: 1366px){
+@media (min-width: 1919px){
     .wrapper-products .main-product{
-        width: 48%;
-        height: 445px;
+        width: 45%;
+        height: 509px;
+    }
+
+    .wrapper-products{
+        margin: 0px 280px 0px 280px;
     }
 }
 
-@media only screen and (min-width: 1920px){
+@media (min-width: 2560px){
     .wrapper-products .main-product{
-        width: 50%;
-        height: 510px;
+        width: 45%;
+        height: 509px;
+    }
+
+    .wrapper-products{
+        margin: 0px 480px 0px 480px;
+    }
+
+}
+
+
+
+@media (min-width: 1280px) and (max-width: 1918px){
+    .wrapper-products .main-product{
+        width: 45%;
+        height: 509px;
+    }
+
+    .wrapper-products{
+        margin: 0px 0px 0px 0px;
     }
 }
+
+
+
 
