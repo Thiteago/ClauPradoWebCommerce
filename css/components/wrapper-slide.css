@@ -7,10 +7,10 @@
 .wrapper-slide .legenda{
     z-index: 3;
     background-color: rgb(200 54 230 / 33%);
-    width: 50%;
+    width: 605px;
     position: absolute;
-    bottom: 72px;
     height: 120px;
+    top: 429px;
 }
 
 .wrapper-slide .legenda h1{
@@ -27,7 +27,7 @@
     color: #FFF;
     text-shadow: 1px 1px 1px #000;
     width: 369px;
-    left: 167px;
+    left: 135px;
     position: relative;
 }
 
