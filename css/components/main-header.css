@@ -6,12 +6,12 @@
     width: 100%;
 }
 
-.main-header a{
-    transition: all 1s;
+.main-header .nav a{
+    transition: all 0.3s;
 }
 
-.main-header a:hover{
-    font-size: 4em;
+.main-header .nav a:hover{
+    font-size: 3.6em;
     color: #7C3267;
 }
 

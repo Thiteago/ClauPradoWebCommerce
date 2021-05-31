@@ -16,7 +16,7 @@
 .wrapper-slide .legenda h1{
     text-align: center;
     font-family: WinterSunday;
-    font-size: 30px;
+    font-size: 45px;
     color: #FFF;
     text-shadow: 1px 2px 0px #000;
 }
@@ -25,6 +25,10 @@
     text-align: center;
     font-family: "Viga", Arial, Helvetica, sans-serif;
     color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    width: 369px;
+    left: 167px;
+    position: relative;
 }
 
 .wrapper-slide.-fundo{
