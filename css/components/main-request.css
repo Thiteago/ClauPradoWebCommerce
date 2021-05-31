@@ -1,0 +1,20 @@
+.main-request{
+    text-align: center;
+    background: rgba(226 226 226);
+    height: 141px;
+}
+
+.main-request h1{
+    font-family: WinterSunday;
+    color: #000;
+}
+
+.main-request button{
+    font-family: "Viga", Arial, Helvetica, sans-serif;
+    background-color: #FFB2CE;
+    color: #fff;
+    height: 56px;
+    width: 273px;
+    font-size: 27px;
+    border: 0;
+}
