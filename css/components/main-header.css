@@ -6,11 +6,11 @@
     width: 100%;
 }
 
-a{
+.main-header a{
     transition: all 1s;
 }
 
-a:hover{
+.main-header a:hover{
     font-size: 4em;
     color: #7C3267;
 }

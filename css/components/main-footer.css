@@ -1,0 +1,11 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    height: 58px;
+    background-color: #FFB2CE;
+}
+
+.main-footer img{
+    width: 52px;
+    height: 57px;
+}
