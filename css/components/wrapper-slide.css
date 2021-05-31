@@ -4,7 +4,28 @@
     align-items: center;
 }
 
+.wrapper-slide .legenda{
+    z-index: 3;
+    background-color: rgb(255 56 225 / 33%);
+    width: 50%;
+    position: absolute;
+    bottom: 72px;
+    height: 120px;
+}
 
+.wrapper-slide .legenda h1{
+    text-align: center;
+    font-family: WinterSunday;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 1px 2px 0px #000;
+}
+
+.wrapper-slide .legenda p{
+    text-align: center;
+    font-family: "Viga", Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
 
 .wrapper-slide.-fundo{
     z-index: 1;

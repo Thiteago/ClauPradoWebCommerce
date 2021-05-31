@@ -5,11 +5,24 @@
     padding-bottom: 96px;
 }
 
-.wrapper-maisvendidos .produto{
-    width: 380px;
-    height: 280px;
-    background-color: white;
+@media only screen and (min-width: 1920px) {
+    .wrapper-maisvendidos .produto{
+        width: 380px;
+        height: 280px;
+        background-color: white;
+    }
 }
+
+
+@media only screen and (max-width: 1366px){
+    .wrapper-maisvendidos .produto{
+        width: 315px;
+        height: 280px;
+        background-color: white;
+    }
+}
+
+
 
 #espaco{
     margin-left: 130px;
