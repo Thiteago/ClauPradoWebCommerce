@@ -1,0 +1,13 @@
+.frame-comments{
+    box-sizing: border-box;
+    border: 1px solid #969696;
+    width: 285px;
+    height: 476px;
+    margin-right: 32px;
+}
+
+.frame-comments img{
+    position: relative;
+    top: -65px;
+    clip-path: circle(53px at center);
+}

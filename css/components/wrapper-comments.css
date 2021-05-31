@@ -1,0 +1,11 @@
+.wrapper-comments{
+    padding-top: 132px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-comments h1{
+    position: relative;
+    top: -60px;
+    font-family: WinterSunday;
+}
