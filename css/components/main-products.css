@@ -3,3 +3,17 @@
     margin-left: 195px;
     padding-top: 60px;
 }
+
+
+@media (min-width: 1280px) and (max-width: 1366px){
+    .main-products{
+        margin-left: 28px;
+    }
+}
+
+@media (min-width: 2559px){
+    .main-products{
+        margin-left: 350px;
+        margin-right: 380px;
+    }
+}
