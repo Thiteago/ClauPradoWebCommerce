@@ -3,6 +3,8 @@
     justify-content: center;
     height: 58px;
     background-color: #FFB2CE;
+    position: relative;
+    bottom: -172px;
 }
 
 .main-footer img{

@@ -1,0 +1,32 @@
+.product-spotlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 622px;
+    height: 970px;
+}
+
+.product-spotlight .selected-product{
+    width: 622px;
+    height: 460px;
+    background-color: #C4C4C4;
+}
+
+.product-spotlight h1{
+    font-family: WinterSunday;
+    font-size: 70px;
+}
+
+.product-spotlight p{
+    font-family: 'Viga', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.product-spotlight button{
+    width: 220px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #DB00FF;
+    font-family: 'Viga';
+    color: white;
+}

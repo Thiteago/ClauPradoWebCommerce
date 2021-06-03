@@ -36,11 +36,15 @@
     <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/main-action.css">
     <link rel="stylesheet" href="css/components/wrapper-login.css">
-    <link rel="stylesheet" href="css/components/main-produtos.css">
+    <link rel="stylesheet" href="css/components/main-products.css">
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/wrapper-busca.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/main-busca.css">
+    <link rel="stylesheet" href="css/components/wrapper-sections.css">
+    <link rel="stylesheet" href="css/components/product-spotlight.css">
+    <link rel="stylesheet" href="css/components/product-grid.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
 
     <!-- JQuery Import -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -50,30 +54,89 @@
 
 </head>
 <body>
-    <header class="main-header">
-        <img src="assets/img/clau-logo-min.jpg" alt="logo clau prado">
-        <nav class="nav">
-            <a class="main-action" href="index.html">Inicio</a>
-            <a class="main-action" href="#">Produtos</a>
-            <a class="main-action" href="mandesuaideia.html">Mande sua Ideia</a>
-            <a class="main-action" href="sobre.html">Sobre</a>
-            <a class="main-action" href="#">Contato</a>
-        </nav>
-        <div class="wrapper-login">
-            <a class="main-action -second" href="#">Login</a>
-            <a style="font-size: 18px;" class="main-action -second" href="#">ou Cadastre-se</a>
-            <img src="assets/img/avatar-login.png" alt="imagem para cadastro" height="105">
-        </div>
-    </header>
+    <div class="wrapper-sections">
+        <header class="main-header">
+            <img src="assets/img/clau-logo-min.jpg" alt="logo clau prado">
+            <nav class="nav">
+                <a class="main-action" href="index.html">Inicio</a>
+                <a class="main-action" href="#">Produtos</a>
+                <a class="main-action" href="mandesuaideia.html">Mande sua Ideia</a>
+                <a class="main-action" href="sobre.html">Sobre</a>
+                <a class="main-action" href="#">Contato</a>
+            </nav>
+            <div class="wrapper-login">
+                <a class="main-action -second" href="#">Login</a>
+                <a style="font-size: 18px;" class="main-action -second" href="#">ou Cadastre-se</a>
+                <img src="assets/img/avatar-login.png" alt="imagem para cadastro" height="105">
+            </div>
+        </header>
 
-    <section class="main-busca">
-        <h1 class="main-title">Produtos</h1>
-        <div class="wrapper-busca">
-            <input type="text">
-            <button>Buscar</button>
-        </div>
-    </section>
+        <section class="main-busca">
+            <h1 class="main-title">Produtos</h1>
+            <div class="wrapper-busca">
+                <input type="text">
+                <button>Buscar</button>
+            </div>
+        </section>
 
 
+        <section class="main-products">
+            <div class="product-spotlight">
+                <div class="selected-product"></div>
+                <h1>Titulo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Pellentesque non varius nisi. Mauris vestibulum sapien at tortor 
+                    molestie laoreet. Proin venenatis sodales magna, id congue nunc 
+                    sagittis quis. Nam non mollis sapien. Morbi ut consequat lectus, 
+                    non feugiat mauris. Duis non pharwerwrwrewrjklhejqwhekj</p>
+                <button>Encomendar</button>
+            </div>
+            <div class="product-grid">
+                <figure class="product">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product -middle">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product -middle">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product -middle">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product -middle">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+                <figure class="product">
+                    <figcaption>Titulo</figcaption>
+                </figure>
+            </div>
+
+        </section>
+
+        
+    <footer class="main-footer">
+        <a href="#"><img src="assets/img/instagram-logo.png" alt="logo do instagram"></a>
+        <a href="#"><img src="assets/img/facebook-logo.png" alt="logo do facebook"></a>
+    </footer>
+    </div>
 </body>
 </html>
