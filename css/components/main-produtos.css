@@ -1,0 +1,11 @@
+.main-produtos{
+    height: 1533px;
+    background: linear-gradient(180deg, hsla(0, 0%, 95%, 1) 86%, hsla(317, 100%, 90%, 1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-produtos .main-title{
+    padding-top: 2px;
+}

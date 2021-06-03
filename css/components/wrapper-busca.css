@@ -1,0 +1,23 @@
+.wrapper-busca{
+    position: relative;
+    bottom: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-busca input{
+    width: 515px;
+    border-radius: 76px;
+}
+
+.wrapper-busca button{
+    text-align: center;
+    width: 266px;
+    height: 30px;
+    font-family: 'Viga',Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    border-radius: 8px;
+    color: white;
+    background-color: #DB00FF;
+}
