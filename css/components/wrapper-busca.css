@@ -9,6 +9,8 @@
 .wrapper-busca input{
     width: 515px;
     border-radius: 76px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 .wrapper-busca button{
