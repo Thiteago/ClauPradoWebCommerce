@@ -37,6 +37,9 @@
     <link rel="stylesheet" href="css/components/main-action.css">
     <link rel="stylesheet" href="css/components/wrapper-login.css">
     <link rel="stylesheet" href="css/components/wrapper-sections.css">
+    <link rel="stylesheet" href="css/components/main-ideia.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
 
     <!-- JQuery Import -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -49,7 +52,7 @@
     <link rel="stylesheet" href="index.html">
 </head>
 <body>
-    <div class="wrapper-sections">
+    <div class="wrapper-sections -second">
     <header class="main-header">
         <img src="assets/img/clau-logo-min.jpg" alt="logo clau prado">
         <nav class="nav">
@@ -66,11 +69,32 @@
         </div>
     </header>
 
-    <section>
+    <section class="main-ideia">
+        <div class="logo">
+            <img src="assets/img/mande sua ideia.png" alt="">
+        </div>
+        <div class="form">
+            <h1>Enviar</h1>
+            <p>Preencha o formulário e nos envie sua ideia, iremos verificar e entraremos em contato .</p>
 
+            <form class="main-form" action="" method="POST">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                <br><br>
+                <label for="descricao">Descricao</label><br>
+                <textarea name="description" id="descricao" cols="30" rows="10"></textarea>
+                <br><br>
+                <label for="anexo">Anexos</label><br>
+                
+            </form>
+        </div>
 
     </section>
 
     </div>
+    <footer class="main-footer">
+        <a href="#"><img src="assets/img/instagram-logo.png" alt="logo do instagram"></a>
+        <a href="#"><img src="assets/img/facebook-logo.png" alt="logo do facebook"></a>
+    </footer>
 </body>
 </html>

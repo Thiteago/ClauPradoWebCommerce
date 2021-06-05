@@ -1,0 +1,33 @@
+.main-ideia{
+    height: 773px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-ideia .logo img{
+    height: 790px;
+    width: 860px;
+}
+
+.main-ideia .form{
+    margin-left: 147px;
+    background-color: #FFF;
+    width: 100%;
+    padding-left: 45px;
+}
+
+.main-ideia .form h1{
+    font-family: 'Viga', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 100px;
+    color: #000;
+}
+
+.main-ideia .form p{
+    font-family: 'Viga', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000;
+}

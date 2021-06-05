@@ -1,0 +1,35 @@
+.main-form {
+    padding-top: 53px;
+}
+
+.main-form label{
+    font-family: 'Viga', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000;
+    padding-right: 15px;
+}
+
+.main-form input{
+    background-color: #fff;
+    color: #000;
+    border-radius: 12px;
+    padding-left: 5px;
+    width: 590px;
+}
+
+.main-form input:focus{
+    border: 2px solid pink;
+}
+
+.main-form textarea:focus{
+    border: 2px solid pink;
+}
+
+.main-form textarea{
+    width: 645px;
+    height: 217px;
+    resize: none;
+    border-radius: 12px;
+}
