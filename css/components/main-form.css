@@ -27,11 +27,16 @@
     border: 2px solid pink;
 }
 
+
 .main-form textarea{
     width: 645px;
     height: 217px;
     resize: none;
     border-radius: 12px;
+}
+
+.main-form .submit{
+    margin-top: 40px;
 }
 
 @media (max-width: 1366px){
