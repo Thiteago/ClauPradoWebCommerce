@@ -37,6 +37,9 @@
 
 .main-form .submit{
     margin-top: 40px;
+    background: #FEB2CE;
+    color: white;
+    font-family: 'Viga';
 }
 
 @media (max-width: 1366px){
