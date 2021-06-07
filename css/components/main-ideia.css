@@ -9,12 +9,27 @@
     width: 860px;
 }
 
+@media (max-width: 1366px){
+    .main-ideia .logo img{
+        height: 550px;
+        width: 550px;
+    }
+
+    .main-ideia .form{
+        margin-left: 20px;
+        background-color: #FFF;
+        width: 100%;
+        padding-left: 45px;
+    }
+}
+
 .main-ideia .form{
     margin-left: 147px;
     background-color: #FFF;
     width: 100%;
     padding-left: 45px;
 }
+
 
 .main-ideia .form h1{
     font-family: 'Viga', Arial, Helvetica, sans-serif;

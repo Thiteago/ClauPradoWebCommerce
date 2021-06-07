@@ -33,3 +33,19 @@
     resize: none;
     border-radius: 12px;
 }
+
+@media (max-width: 1366px){
+    .main-form textarea{
+        width: 590px
+    }
+}
+
+@media (max-width: 1270px){
+    .main-form textarea{
+        width: 515px
+    }
+
+    .main-form input{
+        width: 515px
+    }
+}
