@@ -3,45 +3,44 @@
     src: url(../../assets/fonts/WinterSunday.otf);
 }
 
+.main-action{
+    padding-top: 25px;
+    display: inline-flex;
+    align-items: center;
+    padding-right: 61px;
+    padding-left: 61px;
+    font-size: 2.5rem;
+    font-family: WinterSunday;
+    color: #7C3267;
+    text-decoration: none;
+}
 
+.main-action.-second{
+    padding-top: 0px;
+    padding-right: 99px;
+    padding-left: 15px;
+}
 
-@media only screen and (min-width : 1270px)
-{ 
+@media (min-width: 320px) and (max-width:800px){
     .main-action{
-        padding-top: 30px;
-        display: inline-flex;
-        align-items: center;
-        padding-right: 35px;
-        font-size: 2.5em;
-        font-family: WinterSunday;
-        color: #7C3267;
-        text-decoration: none;
-    }
-
-    .main-action.-second{
-        padding-top: 0px;
-        padding-right: 99px;
-        padding-left: 15px;
+        display: none;
     }
 }
 
-@media only screen and (min-width : 2566px){
+@media (min-width:801px) and (max-width: 1024px){
     .main-action{
-        padding-top: 25px;
-        display: inline-flex;
-        align-items: center;
-        padding-right: 61px;
-        padding-left: 61px;
-        font-size: 4rem;
-        font-family: WinterSunday;
-        color: #7C3267;
-        text-decoration: none;
+        padding-right: 20px;
+        padding-left: 20px;
+        display: block;
     }
+    
+}
 
-    .main-action .-second{
-        padding-top: 0px;
-        padding-right: 99px;
-        padding-left: 15px;
+@media (min-width:1025px){
+    .main-action{
+        padding-right: 30px;
+        padding-left: 30px;
+        display: block;
     }
 }
 

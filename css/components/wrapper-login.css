@@ -21,3 +21,23 @@
     font-size: 38px;
 }
 
+@media (min-width:320px) and (max-width: 800px){
+    .wrapper-login{
+        display: none;
+    }
+}
+
+
+@media (min-width:801px) and (max-width: 1024px){
+    .wrapper-login a{
+        display: none;
+    }
+
+    .wrapper-login img{
+        position: relative;
+    }
+
+    .wrapper-login{
+        background-color: white;
+    }
+}
