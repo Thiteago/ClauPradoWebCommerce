@@ -66,7 +66,7 @@
     .menu-trigger div {
         width: 30px;
         height: 4px;
-        background: white none repeat scroll 0% 0%;
+        background: black none repeat scroll 0% 0%;
         margin-top: 3px;
     }
 
@@ -74,7 +74,7 @@
         text-decoration: none;
         background: rgb(223, 223, 223) none repeat scroll 0% 0%;
         width: 185px;
-        height: 70%;
+        height: 80%;
         position: absolute; /*necessária para o funcionamento*/
         box-shadow: 1px 2px 3px #DDD;
         right: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
@@ -108,7 +108,7 @@
         display: block;
     } 
 }
-@media (min-width:801px) and (max-width: 1025px) { 
+@media (min-width:801px) and (max-width: 1280px) { 
     .main-header .logomin{
         display: block;
     } 
