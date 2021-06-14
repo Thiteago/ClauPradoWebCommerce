@@ -43,9 +43,6 @@
 }
 
 @media (min-width:320px) and (max-width: 801px) { 
-    .main-header{
-        background-color: red;
-    }
 
     .main-header .logomin{
         display: block;
@@ -117,10 +114,6 @@
 }
 @media (min-width:801px) and (max-width: 1280px) { 
 
-    .main-header{
-        background-color: green;
-    }
-
     .main-header .logomin{
         display: block;
     } 
@@ -135,10 +128,6 @@
 }
 
 @media (min-width:1281px) { 
-
-    .main-header{
-        background-color: yellow;
-    }
 
     .main-header .logomin{
         display: none;
