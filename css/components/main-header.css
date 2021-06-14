@@ -43,6 +43,10 @@
 }
 
 @media (min-width:320px) and (max-width: 801px) { 
+    .main-header{
+        background-color: red;
+    }
+
     .main-header .logomin{
         display: block;
     } 
@@ -72,14 +76,15 @@
 
     .menu-hidde {
         text-decoration: none;
-        background: rgb(223, 223, 223) none repeat scroll 0% 0%;
+        background: white none repeat scroll 0% 0%;
         width: 185px;
         height: 80%;
         position: absolute; /*necessária para o funcionamento*/
-        box-shadow: 1px 2px 3px #DDD;
-        right: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
+        box-shadow: -5px 11px 21px gray;
+        right: -100%;  /*é com essa propriedade que o menu fica escondido a direita*/
         transition: right .5s;
         z-index: 3000;
+        display: flex;
     }
         
     .menu-hidde li {
@@ -90,8 +95,10 @@
     }
         
     .menu-hidde ul {
-        position: absolute;
-        top: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
     }
 
     .menu-hidde a{
@@ -109,6 +116,11 @@
     } 
 }
 @media (min-width:801px) and (max-width: 1280px) { 
+
+    .main-header{
+        background-color: green;
+    }
+
     .main-header .logomin{
         display: block;
     } 
@@ -123,6 +135,11 @@
 }
 
 @media (min-width:1281px) { 
+
+    .main-header{
+        background-color: yellow;
+    }
+
     .main-header .logomin{
         display: none;
     }
