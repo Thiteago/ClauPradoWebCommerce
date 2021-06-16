@@ -3,3 +3,9 @@
     background-image: linear-gradient(to bottom, #ffffff, #fcfbff, #f9f8ff, #f6f4fe, #f3f1fe);
     height: 830px;
 }
+
+@media(min-width: 320px) and (max-width: 479px){
+    .main-recentworks{
+        height: auto;
+    }
+}

@@ -12,8 +12,9 @@
     box-sizing: border-box;
     z-index: 3;
     overflow: hidden;
-    top: 298px;
+    top: -131px;
     display: flex;
+    left: -506px;
 }
 
 .main-slide .clouds img{

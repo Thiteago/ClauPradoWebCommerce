@@ -48,3 +48,19 @@
     top: -764px;
     left: 60px;
 }
+
+@media(min-width: 320px) and (max-width: 479px){
+    .wrapper-slide .class{
+        display: none;
+    }
+
+    .wrapper-slide .legenda{
+        width: auto;
+    }
+
+    .wrapper-slide .legenda p{
+        width: auto;
+        left: auto;
+
+    }
+}
