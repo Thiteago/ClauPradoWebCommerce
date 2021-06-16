@@ -1,7 +1,10 @@
 .wrapper-comments{
     padding-top: 110px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    height: 100%;
+    place-items: 100%;
+    text-align: center;
+    
 }
 
 .wrapper-comments h1{

@@ -55,12 +55,16 @@
     }
 
     .wrapper-slide .legenda{
-        width: auto;
+        width: 100%;
+        height: 140px;
     }
 
     .wrapper-slide .legenda p{
         width: auto;
         left: auto;
+    }
 
+    .wrapper-slide .clouds{
+        display: none;
     }
 }
