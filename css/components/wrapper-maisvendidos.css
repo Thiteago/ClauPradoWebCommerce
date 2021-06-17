@@ -68,13 +68,24 @@
 }
 
 @media (min-width: 600px) and (max-width: 800px){
+    .wrapper-maisvendidos{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     .wrapper-maisvendidos .produto{
-        width: 165px;
-        height: 165px;
+        width: 410px;
+        height: 410px;
+        
+    }
+
+    .wrapper-maisvendidos .produto:nth-child(even){
+        margin: 0 0 33px 0;
     }
 
     .wrapper-maisvendidos p{
-        top: 188px;
+        top: 415px;
     }
 }
 
