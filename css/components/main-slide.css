@@ -54,3 +54,13 @@
     }
 }
 
+@media(min-width: 1025px) and (max-width: 1280px){
+    .main-slide{
+        height: 450px;
+    }
+
+    .main-slide .clouds img{
+        margin: 0px 220px 0px 233px;
+    }
+}
+
