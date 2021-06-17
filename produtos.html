@@ -52,10 +52,6 @@
     <!-- AOS import -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- import owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="css/components/owl.carousel.min.css">
-
 </head>
 <body>
     <div class="wrapper-sections">
@@ -72,14 +68,17 @@
                 <div></div>
                 <div></div>
             </div>
-        <nav class="menu-hidde" id="menu-hidde">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="mandesuaideia.html">Mande Sua Ideia</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-        </nav>
+            <div id="mostra">
+                <nav class="menu-hidde" id="menu-hidde">
+                     <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="mandesuaideia.html">Mande Sua Ideia</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        </ul>
+                </nav>
+            </div>
+
             <div class="wrapper-login">
                 <a class="main-action -second" href="#">Login</a>
                 <a style="font-size: 18px;" class="main-action -second" href="#">ou Cadastre-se</a>
@@ -94,6 +93,18 @@
                 <button>Buscar</button>
             </div>
         </section>
+
+
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
 
 
         <section class="main-products">
@@ -111,7 +122,7 @@
             </div> -->
 
 
-            <div class="product-grid owl-carousel">
+            <div class="product-grid">
                 <figure class="product">
                     <figcaption>Titulo 1</figcaption>
                 </figure>
@@ -151,13 +162,14 @@
             </div>
 
         </section>
+
+        <footer class="main-footer">
+            <a href="#"><img src="assets/img/instagram-logo.png" alt="logo do instagram"></a>
+            <a href="#"><img src="assets/img/facebook-logo.png" alt="logo do facebook"></a>
+        </footer>
     </div>
-    <footer class="main-footer">
-        <a href="#"><img src="assets/img/instagram-logo.png" alt="logo do instagram"></a>
-        <a href="#"><img src="assets/img/facebook-logo.png" alt="logo do facebook"></a>
-    </footer>
+    
 
     <script src="js/menu.js"></script>
-    <script src="js/script.js"></script>
 </body>
 </html>

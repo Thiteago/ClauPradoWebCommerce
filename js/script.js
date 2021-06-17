@@ -22,10 +22,3 @@ $(".slider").owlCarousel({
     }
 });
 
-
-$(".product-grid").owlCarousel({
-    loop: true,
-    items:1,
-
-});
-
