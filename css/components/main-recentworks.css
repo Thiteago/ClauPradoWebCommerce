@@ -4,8 +4,8 @@
     height: 830px;
 }
 
-@media(min-width: 320px) and (max-width: 479px){
+@media(min-width: 320px) and (max-width: 599px){
     .main-recentworks{
-        height: auto;
+        height: 100%;
     }
 }

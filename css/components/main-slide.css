@@ -38,7 +38,7 @@
     overflow: hidden;
 }
 
-@media(min-width: 320px) and (max-width: 479px){
+@media(min-width: 320px) and (max-width: 599px){
     .main-slide{
         height: 470px;
     }
