@@ -11,16 +11,6 @@
     background-color: #C4C4C4;
 }
 
-@media (min-width: 1280px) and (max-width: 1366px){
-    .product-spotlight{
-        padding-top: 180px;
-    }
-
-    .product-spotlight .selected-product{
-        width: 490px;
-        height: 360px;
-    }
-}
 
 
 
@@ -41,4 +31,31 @@
     background-color: #FEB2CE;
     font-family: 'Viga';
     color: white;
+}
+
+@media(min-width: 320px) and (max-width: 479px){
+    .product-spotlight{
+        display: flex;
+        padding-top: 0;
+        align-items: center;
+        height: 100%;
+    }
+
+    .product-spotlight .selected-product{
+        width: 300px;
+        height: 290px;
+        background-color: #C4C4C4;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1366px){
+    .product-spotlight{
+        padding-top: 180px;
+    }
+
+    .product-spotlight .selected-product{
+        width: 490px;
+        height: 360px;
+    }
 }

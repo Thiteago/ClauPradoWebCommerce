@@ -23,3 +23,9 @@
     color: white;
     background-color: #FEB2CE;
 }
+
+@media(min-width: 320px) and (max-width: 479px){
+    .wrapper-busca input{
+        width: 300px
+    }
+}

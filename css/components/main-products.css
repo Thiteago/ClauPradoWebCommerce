@@ -5,6 +5,17 @@
 }
 
 
+@media(min-width: 320px) and (max-width: 479px){
+    .main-products{
+        padding-top: 50px;
+        padding-left: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+
 @media (min-width: 1280px) and (max-width: 1366px){
     .main-products{
         margin-left: 28px;
