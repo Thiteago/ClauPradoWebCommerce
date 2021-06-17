@@ -43,3 +43,14 @@
         height: 470px;
     }
 }
+
+@media(min-width: 801px) and (max-width: 1024px){
+    .main-slide{
+        height: 450px;
+    }
+
+    .main-slide .clouds img{
+        margin: 0px 220px 0px 233px;
+    }
+}
+

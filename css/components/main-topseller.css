@@ -21,6 +21,7 @@
 @media (min-width: 801px) and (max-width: 1024px){
     .main-topseller{
         height: 515px;
+        margin-bottom: -1px;
     }
 }
 

@@ -101,7 +101,27 @@
     .wrapper-products .secundary-product{
         width: 45%;
     }
+}
 
+@media(min-width: 801px) and (max-width: 1024px){
+    .wrapper-products .main-product{
+        width: 500px;
+        height: 450px;
+        margin: auto;
+    }
+
+    .wrapper-products .main-text{
+        margin-left: 35px;
+        width: 70%;
+    }
+
+    .wrapper-products .main-text h1{
+        margin-top: 15px;
+    }
+
+    .wrapper-products .secundary-product{
+        width: 35%;
+    }
 }
 
 

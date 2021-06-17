@@ -42,7 +42,7 @@
     display: none;
 }
 
-@media (min-width:320px) and (max-width: 801px) { 
+@media (min-width:320px) and (max-width: 800px) { 
 
     .main-header .logomin{
         display: block;
@@ -112,10 +112,11 @@
         display: block;
     } 
 }
-@media (min-width:801px) and (max-width: 1280px) { 
+@media (min-width:801px) and (max-width: 1024px) { 
 
     .main-header .logomin{
         display: block;
+        padding-left: 65px;
     } 
 
     .main-header .logobig{
