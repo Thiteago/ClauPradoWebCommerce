@@ -1,8 +1,7 @@
 .main-ideia{
-    height: 773px;
+    height: 100%;
     display: flex;
     justify-content: center;
-    margin-left: 270px;
 }
 
 .main-ideia .form{
@@ -31,9 +30,6 @@
 
 @media(min-width: 320px) and (max-width: 479px){
     .main-ideia{
-        height: 100%;
-        margin-left: auto;
-        display: flex;
         flex-direction: column;
     }
 
@@ -65,9 +61,6 @@
 
 @media(min-width: 480px) and (max-width: 599px){
     .main-ideia{
-        height: 100%;
-        margin-left: auto;
-        display: flex;
         flex-direction: column;
     }
 
@@ -101,9 +94,6 @@
 
 @media(min-width: 600px) and (max-width: 800px){
     .main-ideia{
-        height: 100%;
-        margin-left: auto;
-        display: flex;
         flex-direction: column;
     }
 
@@ -137,10 +127,7 @@
 
 @media(min-width: 801px) and (max-width: 1024px){
     .main-ideia{
-        height: 100%;
-        margin-left: auto;
         background: #fff;
-        display: flex;
         flex-direction: row-reverse;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -172,5 +159,45 @@
     .main-ideia .form p{
         padding: 0px 10px;
         max-width: 100%;
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1280px){
+    .main-ideia{
+        background: #FFF;
+    }
+
+    .main-ideia .logo{
+        max-width: 100%;
+    }
+
+    .main-ideia .logo img{
+        max-width: 100%;
+    }
+
+    .main-ideia .form{
+        margin-left: 0;
+    }
+}
+
+@media(min-width: 1281px){
+    .main-ideia{
+        width: 100%;
+        align-items: center;
+        background: #f9f9f9;
+    }
+
+    .main-ideia .logo{
+        width: 100%;
+    }
+
+    .main-ideia .logo img{
+        max-width: 100%;
+    }
+
+    .main-ideia .form{
+        margin-left: 0;
+        padding-bottom: 50px;
+        background-color: #f9f9f9;
     }
 }
