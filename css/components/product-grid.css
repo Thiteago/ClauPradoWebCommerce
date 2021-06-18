@@ -22,7 +22,7 @@
 
 
 
-@media (min-width: 320px) and (max-width: 479px){
+@media (min-width: 320px) and (max-width: 599px){
     .product-grid{
         justify-content: center;
         height: 100%;
@@ -37,6 +37,20 @@
 
     .product-grid .product:nth-child(odd){
         margin-right: 5px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    .product-grid{
+        height: 100%;
+        padding-left: 0px;
+    }
+
+    .product-grid .product{
+        margin-bottom: 10px;
+        flex: 1 1 155px;
+        height: 200px;
+        margin-right: 2px;
     }
 }
 
@@ -46,23 +60,7 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 599px){
-    .product-grid{
-        justify-content: center;
-        height: 100%;
-        padding-left: 0px;
-    }
 
-    .product-grid .product{
-        margin-bottom: 10px;
-        flex: 1 1 200px;
-        height: 200px;
-    }
-
-    .product-grid .product:nth-child(odd){
-        margin-right: 5px;
-    }
-}
 
 
 @media (min-width: 1280px) and (max-width: 1366px){
