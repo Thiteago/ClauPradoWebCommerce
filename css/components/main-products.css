@@ -3,7 +3,6 @@ figure{
 }
 
 .main-products{
-    display: flex;
     margin-left: 195px;
     padding-top: 60px;
 }
@@ -11,9 +10,6 @@ figure{
 
 @media(min-width: 320px) and (max-width: 479px){
     .main-products{
-        max-width: 50%;
-        justify-content: center;
-        align-items: center;
         margin: 0 auto;
         padding-bottom: 16px;
     }
