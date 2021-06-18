@@ -46,6 +46,23 @@
     }
 }
 
+@media (min-width: 480px) and (max-width: 599px){
+    .product-grid{
+        justify-content: center;
+        height: 100%;
+        padding-left: 0px;
+    }
+
+    .product-grid .product{
+        margin-bottom: 10px;
+        flex: 1 1 200px;
+        height: 200px;
+    }
+
+    .product-grid .product:nth-child(odd){
+        margin-right: 5px;
+    }
+}
 
 
 @media (min-width: 1280px) and (max-width: 1366px){

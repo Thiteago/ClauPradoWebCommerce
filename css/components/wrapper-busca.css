@@ -29,3 +29,9 @@
         width: 300px
     }
 }
+
+@media(min-width: 480px) and (max-width: 599px){
+    .wrapper-busca input{
+        width: 455px;
+    }
+}
