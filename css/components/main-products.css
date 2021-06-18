@@ -14,6 +14,12 @@ figure{
     }
 }
 
+@media(min-width: 801px) and (max-width: 1024px){
+    .main-products{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
 
 @media (min-width: 1280px) and (max-width: 1366px){
     .main-products{

@@ -116,7 +116,6 @@
 
     .main-header .logomin{
         display: block;
-        padding-left: 65px;
     } 
 
     .main-header .logobig{
@@ -149,6 +148,9 @@
 
     .main-header .logomin{
         display: none;
+    }
+    .-secundary .logomin{
+        display: block;
     }
     .main-header .logobig{
         display: block;
