@@ -46,6 +46,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    margin-bottom: 50px;
 }
 
 @media(min-width: 320px) and (max-width: 479px){

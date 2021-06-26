@@ -1,7 +1,7 @@
 .main-ideia{
     height: 100%;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .main-ideia .form{
@@ -185,14 +185,16 @@
         width: 100%;
         align-items: center;
         background: #f9f9f9;
+        height: 745px;
     }
 
     .main-ideia .logo{
         width: 100%;
+        text-align: right;
     }
 
     .main-ideia .logo img{
-        max-width: 100%;
+        width: 50%;
     }
 
     .main-ideia .form{
