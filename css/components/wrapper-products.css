@@ -51,7 +51,7 @@
     }
 
     .wrapper-products .main-text{
-        margin-left: 35px;
+        margin: 10px 10px;
         width: auto;
     }
 
@@ -60,20 +60,16 @@
     }
 
     .wrapper-products .wrapper-secundary .secundary-product{
-        flex: 1 1 150px;
         height: 155px;
-    }
-
-    .wrapper-products .wrapper-secundary .secundary-product:nth-child(odd){
-        margin-left: 5px;
+        margin-bottom: 0;
     }
     .wrapper-secundary{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
-        justify-content: center;
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        max-width: 960px;
+        max-width: 300px;
+        margin-left: 5px;
+        gap: 5px;
     }
 }
 
@@ -96,7 +92,8 @@
     
     .wrapper-products .wrapper-secundary .secundary-product{
         flex: 1 1 225px;
-        height: 230px;
+        height: 115px;
+        max-width: 115px;
     }
 
     .wrapper-secundary{
@@ -106,6 +103,7 @@
         padding-bottom: 20px;
         flex-wrap: wrap;
         max-width: 960px;
+        gap: 5px;
     }
 }
 
@@ -128,7 +126,8 @@
     
     .wrapper-products .wrapper-secundary .secundary-product{
         flex: 1 1 225px;
-        height: 290px;
+        height: 190px;
+        max-width: 218px;
     }
 
     .wrapper-secundary{
@@ -138,6 +137,7 @@
         padding-bottom: 20px;
         flex-wrap: wrap;
         max-width: 960px;
+        gap: 5px;
     }
 }
 
@@ -159,7 +159,7 @@
 
     .wrapper-products .wrapper-secundary .secundary-product{
         flex: 1 1 225px;
-        height: 290px;
+        height: 190px;
     }
 
     .wrapper-secundary{
@@ -167,8 +167,9 @@
         align-items: center;
         justify-content: center;
         padding-bottom: 20px;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         max-width: 960px;
+        gap: 5px;
     }
 }
 
@@ -203,9 +204,10 @@
 
     .wrapper-secundary{
         width: 100%;
-        display: flex;
+        display: grid;
         justify-content: space-between;
         max-width: 960px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .wrapper-products .wrapper-secundary .secundary-product{
