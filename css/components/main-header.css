@@ -38,6 +38,10 @@
     display:block;
 }
 
+.main-header .arrow{
+    transform: rotate(180deg);
+}
+
 #menu-trigger{
     display: none;
 }
