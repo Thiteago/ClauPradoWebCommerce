@@ -1,0 +1,17 @@
+.header {
+  height: 100px;
+}
+
+.header .arrow {
+  margin-left: 20px;
+  width: 35px;
+  height: 58px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.login .container-login {
+  background-color: red;
+  max-width: 960px;
+}
+/*# sourceMappingURL=style.css.map */

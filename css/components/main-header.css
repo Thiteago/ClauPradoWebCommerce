@@ -40,6 +40,9 @@
 
 .main-header .arrow{
     transform: rotate(180deg);
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 #menu-trigger{
