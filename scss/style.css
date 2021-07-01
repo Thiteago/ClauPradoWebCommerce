@@ -1,17 +1,205 @@
 .header {
-  height: 100px;
+  height: 100%;
 }
 
 .header .arrow {
   margin-left: 20px;
   width: 35px;
   height: 58px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+}
+
+.login {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
 }
 
 .login .container-login {
-  background-color: red;
-  max-width: 960px;
+  background-color: rgba(248, 220, 253, 0.35);
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  border-radius: 50px;
+  gap: 100px;
+}
+
+.login .container-login .nao-possui {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px;
+  padding-bottom: 50px;
+}
+
+.login .container-login .nao-possui > h1 {
+  color: #db00ff;
+  font-family: 'Viga';
+  font-size: 40px;
+  line-height: 55px;
+  padding-bottom: 30px;
+}
+
+.login .container-login .nao-possui > p {
+  font-family: 'Viga';
+  font-size: 20px;
+  line-height: 55px;
+  margin-top: 10px;
+  color: #db00ff;
+}
+
+.login .container-login .nao-possui .btn-outline-dark {
+  margin-top: 30px;
+  background: white;
+}
+
+.login .container-login .nao-possui .btn-outline-dark:hover {
+  background: black;
+}
+
+.login .container-login .nao-possui .label-btn {
+  display: inline;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Viga';
+  font-weight: bold;
+}
+
+.login .container-login .nao-possui .btn-cadastro {
+  width: 350px;
+  height: 40px;
+  background: #db00ff;
+  border: 0;
+  border-radius: 20px;
+  font-family: 'Viga';
+  color: white;
+}
+
+.login .container-login .possui-conta {
+  width: 100%;
+  background: #812F8F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 80px;
+  border-radius: 50px;
+}
+
+.login .container-login .possui-conta > h1 {
+  color: #db00ff;
+  font-family: 'Viga';
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.login .container-login .possui-conta .wrapper-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.login .container-login .possui-conta .wrapper-form .form-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .container-login .possui-conta .wrapper-form .form-login > input {
+  border-radius: 10px;
+}
+
+.login .container-login .possui-conta .wrapper-form .form-login > label {
+  font-family: 'Viga';
+  font-size: 16px;
+  line-height: 55px;
+  color: #db00ff;
+}
+
+.login .container-login .possui-conta .wrapper-form .login-google {
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 120px;
+}
+
+.login .container-login .possui-conta .wrapper-form .login-google > p {
+  font-family: 'Viga';
+  color: #db00ff;
+}
+
+.login .container-login .possui-conta .wrapper-form .login-google .btn-outline-dark {
+  background: white;
+}
+
+.login .container-login .possui-conta .wrapper-form .login-google .btn-outline-dark:hover {
+  background: black;
+}
+
+.login .container-login .possui-conta .wrapper-form .login-google .label-btn {
+  font-family: 'Viga';
+}
+
+@media (min-width: 1281px) and (max-width: 2320px) {
+  .login .container-login .possui-conta .wrapper-form .login-google {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 2100px) {
+  .login .container-login .possui-conta .wrapper-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */

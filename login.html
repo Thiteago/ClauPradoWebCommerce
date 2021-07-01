@@ -44,12 +44,48 @@
 </head>
 <body>
     <header class="header">
-        <a href="index.html"><img class="arrow" src="assets/img/arrow.svg" alt="seta voltar"></a>
+        <a href="index.html"><img class="arrow" src="assets/img/arrow-left-circle.svg" alt="seta voltar"></a>
     </header>
 
     <section class="login">
         <div class="container-login">
-            
+            <div class="nao-possui">
+                <h1>Não Possuo uma Conta</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                      <a class="btn btn-outline-dark" href="/users/googleauth" role="button" style="text-transform:none">
+                        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+                        <p class="label-btn">Cadastrar com o Google</p> 
+                      </a>
+                    </div>
+                  </div>
+                <p>ou</p>
+                <button class="btn-cadastro">Cadastre-se</button>
+            </div>
+            <div class="possui-conta">
+                <h1>Já Possuo uma conta...</h1>
+                <div class="wrapper-form">
+                    <form action="#" class="form-login">
+                        <label for="email">Email</label>
+                        <input type="email">
+                        <label for="senha">Senha</label>
+                        <input type="password">
+                    </form>
+                    <div class="login-google">
+                        <p>Ou</p>
+                        <div class="row">
+                            <div class="col-md-20">
+                              <a class="btn btn-outline-dark alo" href="/users/googleauth" role="button" style="text-transform:none">
+                                <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+                                <p class="label-btn">Cadastrar com o Google</p> 
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                
+            </div>
         </div>
     </section>
 
